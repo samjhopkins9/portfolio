@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Crimson';
-    src: url('fonts/CrimsonText-Regular.ttf') format('truetype');
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Tinos";
-    src: url('fonts/Tinos-Regular.ttf') format("truetype");
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Arsenal";
-    src: url('fonts/Arsenal-Regular.ttf') format('truetype');
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
 }
 
 html {
