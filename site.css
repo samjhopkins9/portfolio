@@ -40,22 +40,23 @@ html {
 }
 
 #name {
-    color: #801C20;
+    color: #A01C20;
     position: relative;
     line-height: 0.7;
-    left: 46%;
+    left: 45%;
     bottom: 5px;
 }
 
 #description {
-    color: #325235;
+    color: #32A235;
     position: relative;
-    left: 43%;
+    left: 42%;
     line-height: .43;
 }
 
 #bioh {
-    position: relative;
+    position: absolute;
+    top: 350px;;
     display: inline-block;
     left: 15.7%;
     width: 70.94%;
@@ -68,17 +69,16 @@ html {
 }
 
 #bio {
-    position: relative;
+    position: absolute;
     left: 15.7%;
     width: 70.94%;
-    height: 10%;
+    height: auto;
     font-family: 'Crimson';
     text-align: left;
     color: #FFFFFF;
     background-color: #6F0010AA;
     padding: 15px;
-    position: relative;
-    bottom: 48px;
+    top: 400px;
 }
 
 h4 {
@@ -105,12 +105,12 @@ ul {
 }
 
 .section {
-    height: 350px;
+    height: 430px;
     width: 16%;
     padding: 1%;
     display: inline-block;
     position: absolute;
-    bottom: -120px;
+    top: 735px;
     text-overflow: ellipsis;
     font-family: 'Bebas Neue', sans-serif;
     color: #000000;
@@ -126,7 +126,7 @@ ul {
     margin: 1px;
     display: inline-block;
     position: absolute;
-    bottom: -780px;
+    top: 1250px;
     text-align: top;
     font-family: 'Bebas Neue', sans-serif;
     color: #000000;
