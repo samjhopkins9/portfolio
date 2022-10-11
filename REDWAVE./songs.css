@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../Fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amarante';
+    src: url('../Fonts/Amarante-Regular.ttf') format('truetype');
+}
+
+html {
+    text-align: center;
+    background-color: #000000;
+}
+
+h1 {
+    color: #AA2211;
+    font-family: 'Amarante';
+    font-size: 50px;
+}
+
+.song h3 {
+    color: #AA2222;
+    font-family: 'Cinzel';
+}
