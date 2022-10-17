@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Crimson';
-    src: url('fonts/CrimsonText-Regular.ttf') format('truetype');
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Tinos";
-    src: url('fonts/Tinos-Regular.ttf') format("truetype");
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Arsenal";
-    src: url('fonts/Arsenal-Regular.ttf') format('truetype');
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
 }
 
 html {
@@ -118,8 +118,18 @@ h4 {
     overflow: middle;
 }
 
+ul {
+    position: relative;
+    bottom: 12px;
+}
+
 li {
     color: #FFFFFFCC;
+}
+
+.section p, #projects p {
+    color: #FFFFFF;
+    font-weight: 100;
 }
 
 a:link {
@@ -135,16 +145,6 @@ a:hover {
     color: #002080AA;
     text-decoration: none;
     transition: 0.2s;
-}
-
-.section p, #projects p {
-    color: #FFFFFF;
-    font-weight: 100;
-}
-
-ul {
-    position: relative;
-    bottom: 12px;
 }
 
 #sections {
