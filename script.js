@@ -103,7 +103,7 @@ function loadHTML(){
     
     let courseshtml = "";
     for (let i=0; i<courses.length; i++){
-        courseshtml += `<li><a href=${courses[i].certificate}>${courses[i].coursename}</a> (${courses[i].coursesite})</li> \n`;
+        courseshtml += `<li><a href=${courses[i].certificate} target='_blank'>${courses[i].coursename}</a> (${courses[i].coursesite})</li> \n`;
     }
     document.getElementById('courseslist').innerHTML = courseshtml;
     
@@ -115,14 +115,14 @@ function loadHTML(){
     
     let projectshtml = "";
     for (let i=0; i<projects.length; i++){
-        projectshtml += `<li id="${projects[i].projid}"><a href='${projects[i].projlink}'>${projects[i].projname}</a></li>
+        projectshtml += `<li id="${projects[i].projid}"><a href='${projects[i].projlink}' target='_blank'>${projects[i].projname}</a></li>
                             <p class="jobdesc">${projects[i].projdesc}</p>`;
     }
     document.getElementById('projectslist').innerHTML = projectshtml;
     
     document.getElementById('email').innerHTML = `Email: ${email}`;
     document.getElementById('phone').innerHTML = `Phone: ${phonenumber}`;
-    document.getElementById('linkedin').innerHTML = `<a href="${linkedin}">Linkedin</a>`;
+    document.getElementById('linkedin').innerHTML = `<a href="${linkedin}" target='_blank'>Linkedin</a>`;
 }
 
 loadHTML();
