@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Crimson';
-    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
+    src: url('fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Tinos";
-    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
+    src: url('fonts/Tinos-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Arsenal";
-    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
+    src: url('fonts/Arsenal-Regular.ttf') format('truetype');
 }
 
 html {
@@ -32,6 +32,7 @@ html {
     margin: 10px;
     position: relative;
     left: 42.6%;
+    border-radius: 10px;
 }
 
 #intro {
@@ -42,14 +43,15 @@ html {
 #name {
     color: #A01C20;
     position: relative;
-    line-height: 0.7;
+    line-height: 0.3;
     left: 45%;
     bottom: 5px;
 }
 
 #description {
-    color: #32A235;
+    color: #A23295;
     position: relative;
+    font-weight: 700;
     left: 42%;
     line-height: .43;
 }
@@ -66,6 +68,7 @@ html {
     color: #FFFFFF;
     background-color: #6F0010AA;
     padding: 15px;
+    border-radius: 10px;
 }
 
 #bio {
@@ -79,6 +82,7 @@ html {
     background-color: #6F0010AA;
     padding: 15px;
     top: 400px;
+    border-radius: 10px;
 }
 
 h4 {
@@ -92,6 +96,17 @@ li {
 
 a:link {
     color: #E1C120;
+    transition: 0.2s;
+}
+
+a:visited {
+    color: #DDAAEE;
+}
+
+a:hover {
+    color: #002080AA;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 .section p, #projects p {
@@ -115,6 +130,7 @@ ul {
     font-family: 'Bebas Neue', sans-serif;
     color: #000000;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 #projects {
@@ -131,6 +147,7 @@ ul {
     font-family: 'Bebas Neue', sans-serif;
     color: #000000;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 #experience{
@@ -175,4 +192,5 @@ footer {
     position: fixed;
     bottom: 0px;
     background-color: #00000099;
+    border-radius: 10px;
 }
