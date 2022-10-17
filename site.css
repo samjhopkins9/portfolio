@@ -36,14 +36,6 @@ html {
     width: 15%;
     height: 15%;
     align-items: center;
-    /*
-    width: 12%;
-    height: 12%;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    position: relative;
-    left: 42.6%; */
 }
 
 #intro {
@@ -58,12 +50,6 @@ html {
     color: #A01C20;
     position: relative;
     top: 20px;
-    /*
-    position: relative;
-    line-height: 0.3;
-    left: 45%;
-    bottom: 5px;
-     */
 }
 
 #description {
@@ -71,11 +57,6 @@ html {
     font-weight: 700;
     position: relative;
     bottom: 10px;
-    /*
-    position: relative;
-    left: 42%;
-    line-height: .43;
-    */
 }
 
 #bioh {
@@ -109,7 +90,6 @@ html {
     display: flex;
     justify-content: center;
     align-content: center;
-    
 }
 
 h4 {
