@@ -35,7 +35,6 @@ html {
     background-color: #801c201F;
     width: 15%;
     height: 15%;
-    align-items: center;
 }
 
 #intro {
@@ -73,8 +72,6 @@ html {
     left: 15%;
     display: flex;
     justify-content: center;
-    align-content: center;
-    
 }
 
 #bio {
@@ -88,8 +85,7 @@ html {
     position: relative;
     left: 15%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-begin;
 }
 
 h4 {
@@ -137,7 +133,7 @@ a:hover {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
     color: #000000;
-    width: 15.5%;
+    flex-basis: 15.5%;
     min-width: 200px;
     border-radius: 10px;
     padding: 1%;
@@ -204,7 +200,15 @@ footer {
     position: fixed;
     bottom: 0px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
-    align-content: center;
+}
+
+@media only screen and (max-width: 700px){
+    #headshot {
+        width: 50%;
+    }
+    main {
+    	zoom: 120%;
+    }
 }
